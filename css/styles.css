@@ -1,0 +1,206 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --acent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --text-secondary-color: #ffffff;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: var(--primary-white-color);
+}
+a {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+/* ================= HEADER ================= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--acent-color);
+}
+.logo-styles-color-header {
+  color: var(--title-text-color);
+}
+.nav-list,
+.address-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.address-list .mail,
+.address-list .tel {
+  color: var(--text-color);
+}
+.nav-list :visited {
+  color: var(--title-text-color);
+}
+.address-list :visited {
+  color: var(--text-color);
+}
+.nav-list :hover,
+.nav-list :focus,
+.address-list :focus,
+.address-list :hover {
+  color: var(--acent-color);
+}
+/* ================= END HEADER ================= */
+
+/* ================= HERO ================= */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary-color);
+}
+.hero-service-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: var(--text-secondary-color);
+}
+/* ================= END HERO ================= */
+
+/* ================= ABOUT US ================= */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.about-us-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.about-us-advantages {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ================= END ABOUT US ================= */
+
+/* ================= SERVICES ================= */
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+/* ================= END SERVICES ================= */
+
+/* ================= OUR TEAM ================= */
+.our-team {
+  background-color: #f5f4fa;
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.our-team-personal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.our-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/* ================= END OUR TEAM ================= */
+
+/* ================= FOOTER ================= */
+.footer {
+  background-color: #2f303a;
+}
+.address-map {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}
+.address-map :visited {
+  color: var(--text-secondary-color);
+}
+.address-list-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list-footer .mail,
+.address-list-footer .tel {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* ================= END FOOTER ================= */
+
+/* ================= PORTFOLIO  ================= */
+
+button {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+.portfolio-button-list-item :hover,
+.portfolio-button-list-item :focus {
+  background-color: var(--acent-color);
+  color: var(--text-secondary-color);
+}
+.portfolio-work-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.portfolio-work-services {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.logo-styles-color-footer {
+  color: var(--text-secondary-color);
+}
+/* ================= END PORTFOLIO  ================= */
