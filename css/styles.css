@@ -15,10 +15,74 @@ body {
 a {
   text-decoration: none;
 }
+.list {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .address {
   font-style: normal;
 }
 /* ================= HEADER ================= */
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  margin-right: 93px;
+}
+.nav-link:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.address-list {
+  display: flex;
+}
+.header .address {
+  display: flex;
+  align-items: center;
+}
+.header .address {
+  margin-left: auto;
+}
+.address-list-link:not(:last-child) {
+  margin-right: 50px;
+}
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -57,6 +121,28 @@ a {
 /* ================= END HEADER ================= */
 
 /* ================= HERO ================= */
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #757575;
+  margin-bottom: 94px;
+}
+.container .hero {
+}
+.hero-title {
+  margin-bottom: 30px;
+}
+.hero-service-link {
+  display: inline-block;
+  padding: 10px 32px;
+  position: absolute;
+  min-width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -77,6 +163,19 @@ a {
 /* ================= END HERO ================= */
 
 /* ================= ABOUT US ================= */
+.about-us {
+  margin-bottom: 94px;
+}
+.about-us-list {
+  display: flex;
+}
+.about-us-list-item {
+  width: 270px;
+  height: 101px;
+}
+.about-us-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -102,6 +201,19 @@ a {
 /* ================= END ABOUT US ================= */
 
 /* ================= SERVICES ================= */
+.services {
+  margin-bottom: 94px;
+}
+.services-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.services-list {
+  display: flex;
+}
+.services-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .services-title {
   font-weight: 700;
   font-size: 36px;
@@ -113,6 +225,25 @@ a {
 /* ================= END SERVICES ================= */
 
 /* ================= OUR TEAM ================= */
+.our-team {
+  padding-top: 94px;
+}
+.our-team-title {
+  margin-bottom: 50px;
+}
+.our-team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.our-team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-personal-photo {
+  margin-bottom: 30px;
+}
+.our-team-personal {
+  margin-bottom: 10px;
+}
 .our-team {
   background-color: #f5f4fa;
 }
@@ -143,6 +274,21 @@ a {
 /* ================= END OUR TEAM ================= */
 
 /* ================= FOOTER ================= */
+.footer .container {
+  padding-top: 64px;
+  padding-bottom: 56px;
+}
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.address-list-footer-item {
+  display: inline-block;
+  display: flex;
+}
+.address-list-footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 .footer {
   background-color: #2f303a;
 }

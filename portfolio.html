@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
@@ -14,22 +15,27 @@
 <body>
 
     <header class="header">
-        <!--navigation-->
-        <nav class="site-nav">
-        <a class="logo" href="./index.html" aria-label="логотип сайта">Web<span class="logo-styles-color-header">Studio</span> </a>
-            <ul class="nav-list">
-                <li class="nav-link"><a href="">Студия</a></li>
-                <li class="nav-link"><a href="./portfolio.html">Портфолио</a></li>
-                <li class="nav-link"><a href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <!--contacts-->
-        <address class="address">
-            <ul class="address-list">
-                <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <!--navigation-->
+            <nav class="site-nav">
+                <a class="logo" href="./index.html" aria-label="логотип сайта">Web<span
+                        class="logo-styles-color-header">Studio</span> </a>
+                <ul class="nav-list list">
+                    <li class="nav-link"><a href="">Студия</a></li>
+                    <li class="nav-link"><a href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-link"><a href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <!--contacts-->
+            <address class="address">
+                <ul class="address-list list">
+                    <li class="address-list-link"><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="address-list-link"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+    
+        </div>
     </header>
     <main>
         <h1 class="visually-hidden">Наше портфолио</h1>
@@ -94,17 +100,23 @@
 
     </main>
 
-    <footer class="footer">
-        <!--contacts-->
-        <a class="logo" href="./index.html" aria-label="логотип сайта">Web<span class="logo-styles-color-footer">Studio</span> </a>
-            <address class="address">
-                <ul class="address-list-footer">
-                    <li class="address-map"><a href="https://goo.gl/maps/iQH69UE3L2xQG6Z59" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li ><a class="mail" href="mailto:info@example.com">info@example.com</a></li>
-                    <li ><a class="tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
-                </ul>
-            </address>
-    </footer>
+        <footer class="footer">
+            <div class="container">
+                <!--contacts-->
+                <a class="logo" href="./index.html" aria-label="логотип сайта">Web<span
+                        class="logo-styles-color-footer">Studio</span> </a>
+                <address class="address">
+                    <ul class="address-list-footer list">
+                        <li class="address-list-footer-item"><a class="address-map" href="https://goo.gl/maps/iQH69UE3L2xQG6Z59"
+                                target="_blank">г. Киев, пр-т Леси
+                                Украинки, 26</a></li>
+                        <li class="address-list-footer-item"><a class="mail" href="mailto:info@example.com">info@example.com</a>
+                        </li>
+                        <li class="address-list-footer-item"><a class="tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
+                    </ul>
+                </address>
+            </div>
+        </footer>
 </body>
 
 </html>
