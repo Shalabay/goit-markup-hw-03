@@ -52,7 +52,7 @@ img {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -127,7 +127,6 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #757575;
-  margin-bottom: 94px;
 }
 .container .hero {
 }
@@ -162,7 +161,8 @@ img {
 
 /* ================= ABOUT US ================= */
 .about-us {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .about-us-list {
   display: flex;
@@ -173,6 +173,9 @@ img {
 }
 .about-us-list-item:not(:last-child) {
   margin-right: 30px;
+}
+.about-us-title {
+  margin-bottom: 10px;
 }
 .visually-hidden {
   position: absolute;
@@ -200,7 +203,7 @@ img {
 
 /* ================= SERVICES ================= */
 .services {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .services-title {
   text-align: center;
@@ -225,16 +228,21 @@ img {
 /* ================= OUR TEAM ================= */
 .our-team {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-team-title {
   margin-bottom: 50px;
 }
 .our-team-list {
   display: flex;
-  padding-bottom: 94px;
 }
 .our-team-list-item:not(:last-child) {
   margin-right: 30px;
+}
+.our-team-list-item {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
 }
 .our-team-personal-photo {
   margin-bottom: 30px;
@@ -242,6 +250,7 @@ img {
 .our-team-personal {
   margin-bottom: 10px;
 }
+
 .our-team {
   background-color: #f5f4fa;
 }
@@ -315,31 +324,33 @@ img {
 
 /* ================= PORTFOLIO  ================= */
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .portfolio-button-list {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .portfolio-button-list-item {
-  display: inline-block;
 }
 .portfolio-button-list-item:not(:last-child) {
   margin-right: 8px;
 }
 .portfolio-work-list {
-  margin-top: 94px;
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
 }
-.portfolio-work-name {
-  margin-top: 20px;
-}
-.portfolio-work-services {
-  margin-top: 4px;
+.portfolio-work-list-content {
+  padding: 20px 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 .portfolio-work-list-item {
   width: 370px;
+  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -350,6 +361,7 @@ img {
   margin-bottom: 0px;
 }
 button {
+  background-color: transparent;
   display: inline-block;
   min-width: 73px;
   height: 38px;
