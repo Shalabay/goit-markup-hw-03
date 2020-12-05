@@ -352,7 +352,7 @@ img {
 }
 .portfolio-work-list-item {
   width: 370px;
-  height: 404px;
+
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -394,6 +394,7 @@ button {
   color: var(--title-text-color);
 }
 .portfolio-work-services {
+  margin-top: 4px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
